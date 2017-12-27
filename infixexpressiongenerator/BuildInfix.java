@@ -1,6 +1,3 @@
-package infixexpressiongenerator;
-
-
 // import class packages
 import java.util.*;
 import javax.swing.*;
