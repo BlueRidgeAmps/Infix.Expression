@@ -1,30 +1,5 @@
 package infixexpressiongenerator;
 
-/**
- * Course: CMSC 350-6380 Data Structures and Analysis
- * Project 2
- *
- * File: BuildInfix.java 
- * Author: Jonathan Pearson 
- * Date: February 4, 2017
- * Purpose: The BuildInfix class defines methods to parse and distribute the 
- *          user input into stacks and then passes the data to the appropriate 
- *          class depending if the token is an operand or operator.  The buildTree()
- *          method will take the input String and parse it into tokens so that 
- *          individual operands and operators can be determined.  A RuntimeException 
- *          will be thrown if the token is anything but an integer or defined 
- *          operator; e.g. #, $, 2a, 4$, etc...  The buildTree() method also will
- *          pass data to the AssemblyCode class for creating an output of assembly
- *          code.  The getNodes() method pops two operators and an operand and then
- *          pushes the data to the appropriate class and method using the Node
- *          interface.  The operator is also pushed to the AssemblyCode class.  
- *          The getExpression() method will return a complete infix expression
- *          of the elements popped thus far.  The getMessage() method returns
- *          a JOptionPane message of any invalid tokens with the invalid token.
- *          The getOutput() method retrieves the assembly code for each user input
- *          and appends divider lines before it is pushed to the main class.
- *
- */
 
 // import class packages
 import java.util.*;
