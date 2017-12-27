@@ -1,20 +1,3 @@
-package infixexpressiongenerator;
-
-/**
- *          The AssemblyCode class defines methods to import elements from the
- *          BuildInfix class so that an output file can be created with assembly 
- *          code. The pushStack() method accepts operand elements from the BuildInfix 
- *          class and pushes them into a stack. The getRegister() method takes the 
- *          count value from the BuildInfix class and creates a String representation 
- *          of the register. The buildAssemblyCode() method pops two operands, 
- *          receives an operator from the BuildInfix class using the OperatorNode 
- *          class and a String is build that represents a line of assembly code. 
- *          The assembly code String is then appended to outputFile created using
- *          the StringBuilder() class.  The getOutputFile() method returns the 
- *          assembly code to the BuildInfix class where it is appended to any
- *          existing assembly code.
- *
- */
 // import class packages
 import java.util.*;
 
