@@ -1,13 +1,7 @@
 package infixexpressiongenerator;
 
 /**
- * Course: CMSC 350-6380 Data Structures and Analysis 
- * Project 2
- *
- * File: AssemblyCode.java 
- * Author: Jonathan Pearson 
- * Date: February 4, 2017
- * Purpose: The AssemblyCode class defines methods to import elements from the
+ *          The AssemblyCode class defines methods to import elements from the
  *          BuildInfix class so that an output file can be created with assembly 
  *          code. The pushStack() method accepts operand elements from the BuildInfix 
  *          class and pushes them into a stack. The getRegister() method takes the 
